@@ -1,0 +1,143 @@
+/* General image removal * /
+.profile-picture,
+.insights-browse-map .browse-map-photo,
+#srp_main_ a.result-image,
+a.image.company.large-actor-image,
+a.image.company.medium-actor-image,
+a.image.company.small-actor-image,
+a.image.company.xsmall-actor-image,
+a.image.member.large-actor-image,
+a.image.member.medium-actor-image,
+a.image.member.small-actor-image,
+a.image.member.xsmall-actor-image,
+a.image.school.large-actor-image,
+a.image.school.medium-actor-image,
+a.image.school.small-actor-image,
+a.image.school.xsmall-actor-image,
+a.image.ghost.large-actor-image,
+a.image.ghost.medium-actor-image,
+a.image.ghost.small-actor-image,
+a.image.ghost.xsmall-actor-image,
+a.associated-photo,
+.entityblock.person img,
+.endorsers-pics,
+.connections-map-viewee img,
+#props .card .front .content .photo,
+.new-miniprofile-content .miniprofile-body .photo,
+#in-common circle[stroke='#666666'] {
+    display: none!important;
+}
+
+/* Viewers List */
+#viewers-list.card-view .profile-pic {
+    max-height: 234px;
+    height: 234px;
+    z-index: 100000;
+    color: #fff!important;
+    text-align: center;
+    vertical-align: middle;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85)!important;
+    opacity: 0.85!important;
+    font-size: 128px!important;
+    display: table-cell!important;
+    width: 234px!important;
+}
+
+#viewers-list.card-view .profile-pic img {
+    display: none;
+}
+
+#viewers-list .profile-pic div {
+    display: none!important;
+    height: 100%;
+    width: 100%;
+}
+
+#viewers-list.card-view .profile-pic:after {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: inherit;
+    color: inherit;
+    content: "\e08d";
+}
+
+/* Discovery module */
+.discovery-module ol li {
+    text-align: center;
+    float: none!important;
+    vertical-align: middle;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85)!important;
+    opacity: 0.85!important;
+    font-size: 30px!important;
+    display: table-cell!important;
+    background: #006fa6;
+    text-align: left;
+}
+
+.discovery-module ol li img {
+    display: none!important;
+}
+
+ol.discovery-results li a:after {
+    font-family: "LinkedIn-Glyphs-2.0.7","LinkedIn-Glyphs";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    speak: none;
+    font-size: inherit;
+    color: #fff!important;
+    content: "\e08d";
+}
+
+/* Premium profile */
+.premium-profile .profile-card .profile-overview {
+	width: auto!important;
+	float: none;
+    padding: 25px 20px!important;
+}
+
+#profile .profile-overview {
+	float: none;
+    width: auto;
+}
+
+.insights-browse-map li {
+	margin-bottom: 12px;
+}
+
+#srp_main_ .snippet {
+	margin-left: 0;
+}
+
+/* Feed */
+.feed-update > .content,
+.feed-update .author,
+.feed-update .small-entity>.content, 
+.feed-update .small-entity>.content .member.info,
+.feed-update .comment-entity .content {
+    margin-left: 0!important;
+}
+
+.feed-update .recent-post .author {
+    margin-left: 15px!important;
+}
+
+#props .card .front .content {
+    padding-left: 0!important;
+}
+
+.new-miniprofile-content .miniprofile-body {
+	padding-left: 10px;
+}
+.new-miniprofile-content .miniprofile-shared-connections .label, .new-miniprofile-content .miniprofile-summary-sections .label {
+    width: auto!important;
+    padding-left: 15px!important;
+}
+
+.insights-connections-map ul .connections-map-viewee img {
+	content: url('')!important;
+    border: 1px solid #ccc!important;
+}

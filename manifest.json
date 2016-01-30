@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "LinkedUnbiased",
+    "description": "A Google Chrome Extension to help reduce bias by hiding LinkedIn profile photos.",
+    "version": "0.0.1",
+    "author": "Awesome Co.",
+    "homepage_url": "http://awesomeco.is",
+    "icons": {
+        "16": "linkedunbiased-16.png",
+        "48": "linkedunbiased-48.png",
+        "128": "linkedunbiased-128.png"
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "web_accessible_resources": [
+        "js/start.js",
+        "css/linkedin.css"
+    ],
+    "content_scripts": [
+        {
+            "all_frames": false,
+            "js": [ "js/start.js"],
+            "matches": [
+                "*://*.linkedin.com/*",
+                "*://*.linkedin.com/*"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
