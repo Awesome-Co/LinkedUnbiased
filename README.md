@@ -3,16 +3,18 @@ A Google Chrome Extension to help reduce bias by hiding LinkedIn profile photos.
 
 Developed by [Awesome Co.](http://awesomeco.is) for everyone committed to innovating through racial, gender, economic and cultural diversity.
 
-## Chrome Web Store Installation
+## Installation
+### Chrome Web Store
 Free to download and install via the [Chrome Web Store](https://chrome.google.com/webstore/detail/linkedunbiased/mpgeciifbemkdiijhcpmlfgaednijoli)
 
-## Manual Installation:
+### Manual
+- Clone this repository to your local machine
 - Navigate to 'chrome://extensions/'
 - Choose 'Load unpacked extension...'
 - Browse to the repository location
 - Click 'OK'
 
-## Turning on or off
+## Turning On/Off
 - Navigate to 'chrome://extensions/'
 - Find 'LinkedUnbiased' and select 'Enabled'
 

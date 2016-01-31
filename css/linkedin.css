@@ -24,7 +24,9 @@ a.associated-photo,
 .connections-map-viewee img,
 #props .card .front .content .photo,
 .new-miniprofile-content .miniprofile-body .photo,
-#in-common circle[stroke='#666666'] {
+#in-common circle[stroke='#666666'],
+.tt-suggestions img, /* Search */
+.tt-suggestions .mynetwork .ghost-image {
     display: none!important;
 }
 
