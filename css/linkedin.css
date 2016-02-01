@@ -26,7 +26,8 @@ a.associated-photo,
 .new-miniprofile-content .miniprofile-body .photo,
 #in-common circle[stroke='#666666'],
 .tt-suggestions img, /* Search */
-.tt-suggestions .mynetwork .ghost-image {
+.tt-suggestions .mynetwork .ghost-image,
+.insights .profile-card > a {
     display: none!important;
 }
 
@@ -101,7 +102,8 @@ ol.discovery-results li a:after {
     padding: 25px 20px!important;
 }
 
-#profile .profile-overview {
+#profile .profile-overview,
+#topcard .profile-overview {
 	float: none;
     width: auto;
 }
